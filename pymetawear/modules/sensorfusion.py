@@ -59,8 +59,6 @@ class SensorFusionModule(PyMetaWearModule):
         else:
             self.available = True
 
-        self.board = board
-
         self.current_active_signal = None
 
         self._streams_to_enable = {
